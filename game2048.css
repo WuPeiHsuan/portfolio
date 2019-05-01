@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Aldrich|Armata|Russo+One');
+
+div{
+	float:left;
+	height:9em;
+	line-height:3em;
+	width:9em;
+	background-color:#DDDDDD;
+	margin:5px;
+	text-align: center;
+    
+}
+p {
+	font-size: 3em;
+    font-weight: bold;
+    font-family: 'Russo One', sans-serif;
+    color:#001f3f;
+    
+}
+
+div:nth-of-type(4n+1) {
+    clear: both;
+}
+
+article{
+	height:39em;
+	width:39em;
+	padding:1em;
+	background-color:#AAAAAA;
+	
+}
